@@ -1,10 +1,19 @@
 import React from 'react'
+import Container from './components/Container'
+import Heading from './components/Heading'
+import Flex from './components/Flex'
 
 const App = () => {
   return (
-    <div>
-      <h1>This is Chandan</h1>
-      </div>
+   
+    <Flex className='gap-x-10 justify-center'>
+      <div>one</div>
+      <div>two</div>
+      <div>three</div>
+    </Flex>
+    
+
+    
   )
 }
 
