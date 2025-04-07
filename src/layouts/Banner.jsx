@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../components/Container'
 import SubHeading from '../components/SubHeading'
 import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 
 const Banner = () => {
   return (
@@ -14,7 +15,9 @@ const Banner = () => {
 
             <div className='flex gap-x-7 items-center justify-center'>
                 <Button text='Get Free Quoto'/>
+                <Link to='/blog'>
                 <Button text='Learn More'/>
+                </Link>
             </div>
         </Container>
        </div>
