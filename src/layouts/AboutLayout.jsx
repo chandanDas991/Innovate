@@ -10,8 +10,8 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 
 const AboutLayout = () => {
   return (
-    <section className='relative py-[100px] bg-[#F8F8FF]'>
-      <Container>
+    <section className='py-[100px] bg-[#F8F8FF]'>
+      <Container className='relative'>
         <Heading className='text-center pb-[152px]' text="What The People Thinks About Us"/>
       <div className='relative w-[1080px] pb-[56px] bg-white rounded-[20px] shadow-lg'>
 
@@ -29,18 +29,16 @@ const AboutLayout = () => {
             <h5 className='text-2xl text-[#221A2C] font-bold font-opne text-center'>Lukan Depina</h5>
             <p className='text-base text-[#726E9E] font-normal font-paprika text-center pt-1'>Ceo And Head Of Idea</p>
       </div> 
-      </Container>
-      <div className='absolute top-[510px] left-[170px] flex w-[42px] h-[42px] bg-[#1BBF00] rounded-full justify-center items-center'>
+
+
+      <div className='absolute top-[424px] -left-[71px] flex w-[42px] h-[42px] bg-[#1BBF00] rounded-full justify-center items-center'>
       <IoIosArrowBack className='text-white'/>
       </div>
 
-      <div className='absolute top-[510px] right-[170px] flex w-[42px] h-[42px] bg-[#1BBF00] rounded-full justify-center items-center '>
+      <div className='absolute top-[424px] right-[20px] flex w-[42px] h-[42px] bg-[#1BBF00] rounded-full justify-center items-center '>
       <IoIosArrowForward className='text-white'/>
       </div>
-
-      
-
-    
+      </Container>
     </section>
   )
 }
