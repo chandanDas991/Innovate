@@ -24,6 +24,7 @@ export default {
       },
       backgroundImage: {
         'banner': "url('./assets/image.png')",
+        'aboutProfile': "url('./assets/12861(image).png')",
        
       }
     },

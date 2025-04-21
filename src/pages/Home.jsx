@@ -5,6 +5,7 @@ import Gallary from '../layouts/Gallary'
 import Contact from '../layouts/Contact'
 import Service from '../layouts/Service'
 import Plan from '../layouts/Plan'
+import AboutLayout from '../layouts/AboutLayout'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Contact/>
         <Service/>
         <Plan/>
+        <AboutLayout/>
     </div>
   )
 }
